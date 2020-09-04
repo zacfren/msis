@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <!-- my custom CSS goes here -->
 
-    <title>Hello, world!</title>
+    <title>Practice</title>
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -50,32 +50,30 @@
 
     <form>
       <div class="form-group">
-        <label for="exampleFormControlInput1">Email address</label>
-        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+        <label for="ptname">Name</label>
+        <select class="form-control" id="ptname">
+          <option>Dayton, Keith</option>
+          <option>Gregory, Tom</option>
+          <option>Prabhakar, Bipin</option>
+        </select>
+
+      <div class="form-group">
+        <label for="visitDate">Visit Date</label>
+        <input type="date" class="form-control" id="visitDate" placeholder="Visit Date">
+      </div>
+
       </div>
       <div class="form-group">
-        <label for="exampleFormControlSelect1">Example select</label>
-        <select class="form-control" id="exampleFormControlSelect1">
-          <option>1</option>
-          <option>2</option>
-          <option>3</option>
-          <option>4</option>
-          <option>5</option>
+        <label for="priority">Priority</label>
+        <select class="form-control" id="priority">
+          <option value="30">Critical</option>
+          <option value="20">Urgent</option>
+          <option value="10">Non-Emergency</option>
         </select>
       </div>
       <div class="form-group">
-        <label for="exampleFormControlSelect2">Example multiple select</label>
-        <select multiple class="form-control" id="exampleFormControlSelect2">
-          <option>1</option>
-          <option>2</option>
-          <option>3</option>
-          <option>4</option>
-          <option>5</option>
-        </select>
-      </div>
-      <div class="form-group">
-        <label for="exampleFormControlTextarea1">Example textarea</label>
-        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        <label for="symptoms">Symptoms</label>
+        <textarea class="form-control" id="symptoms" rows="3"></textarea>
       </div>
     </form>
 
