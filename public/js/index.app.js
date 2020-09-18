@@ -12,3 +12,7 @@ var app = new Vue({
     }
   }
 })
+
+fetch(url)
+.then
+.then
